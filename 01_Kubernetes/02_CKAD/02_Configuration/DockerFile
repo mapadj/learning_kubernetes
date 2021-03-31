@@ -1,0 +1,3 @@
+FROM alpine
+ENTRYPOINT ["sleep"]
+CMD ["sleep", "10"]

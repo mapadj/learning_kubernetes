@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metdata:
+name: myapp-replicaset
+  labels:
+    app: myapp
+spec:
+  selector:
+    matchLabels:
+      env: production
